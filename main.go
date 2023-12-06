@@ -31,7 +31,7 @@ func CheckVersions() error {
 	return nil
 }
 
-var VERSION string = "1.0.1"
+var VERSION string = "1.0.2"
 
 func main() {
 	firstArgument := os.Args[1]

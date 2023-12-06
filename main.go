@@ -4,11 +4,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/danny270793/nodegen/eslint"
-	"github.com/danny270793/nodegen/git"
-	"github.com/danny270793/nodegen/npm"
-	"github.com/danny270793/nodegen/prettier"
-	"github.com/danny270793/nodegen/typescript"
+	"github.com/danny270793/nodegenerator/eslint"
+	"github.com/danny270793/nodegenerator/git"
+	"github.com/danny270793/nodegenerator/npm"
+	"github.com/danny270793/nodegenerator/prettier"
+	"github.com/danny270793/nodegenerator/typescript"
 )
 
 func CheckVersions() error {

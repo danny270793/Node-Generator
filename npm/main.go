@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/danny270793/nodegen/shell"
+	"github.com/danny270793/nodegenerator/shell"
 )
 
 func regenerateFolder(path string) error {

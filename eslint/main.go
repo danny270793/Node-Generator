@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/danny270793/nodegen/npm"
+	"github.com/danny270793/nodegenerator/npm"
 )
 
 type Eslintrc struct {

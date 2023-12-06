@@ -6,8 +6,8 @@ import (
 	"os"
 	"strings"
 
-	"github.com/danny270793/nodegen/npm"
-	"github.com/danny270793/nodegen/shell"
+	"github.com/danny270793/nodegenerator/npm"
+	"github.com/danny270793/nodegenerator/shell"
 )
 
 func Configure(project *npm.Project) error {

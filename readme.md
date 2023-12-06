@@ -21,13 +21,13 @@ Download the last version directly to the binaries folder
 For Linux (linux):
 
 ```bash
-curl -L https://github.com/danny270793/Node-Generator/releases/download/${LAST_VERSION}/NodeGenerator_${LAST_VERSION}_linux_amd64.tar.gz -o ./nodegenerator.tar.gz
+curl -L https://github.com/danny270793/Node-Generator/releases/download/${LAST_VERSION}/Node-Generator_${LAST_VERSION}_linux_amd64.tar.gz -o ./nodegenerator.tar.gz
 ```
 
 For MacOS (darwin):
 
 ```bash
-curl -L https://github.com/danny270793/Node-Generator/releases/download/${LAST_VERSION}/NodeGenerator_${LAST_VERSION}_darwin_amd64.tar.gz -o ./nodegenerator.tar.gz
+curl -L https://github.com/danny270793/Node-Generator/releases/download/${LAST_VERSION}/Node-Generator_${LAST_VERSION}_darwin_amd64.tar.gz -o ./nodegenerator.tar.gz
 ```
 
 Untar the downloaded file
@@ -39,7 +39,7 @@ tar -xvf ./nodegenerator.tar.gz
 Then copy the binary to the binaries folder
 
 ```bash
-sudo cp ./NodeGenerator /usr/local/bin/nodegenerator
+sudo cp ./Node-Generator /usr/local/bin/nodegenerator
 ```
 
 Make it executable the binary
@@ -49,7 +49,7 @@ sudo chmod +x /usr/local/bin/nodegenerator
 ```
 
 ```bash
-nodegenerator --version
+nodegenerator version
 ```
 
 ## Ussage
@@ -72,6 +72,6 @@ Licensed under the [MIT](license.md) License
 
 ## Version
 
-NodeGenerator version 1.0.0
+NodeGenerator version 1.0.6
 
-Last update 05/12/2023
+Last update 06/12/2023
